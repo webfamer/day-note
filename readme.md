@@ -4,3 +4,7 @@
 2. [js防抖与节流](./file/debounceAndthrottle.html)
 3. [js call apply bind 区别](./file/apply-call-bind.md)
 4. [argument参数](./file/apply-call-bind.md)
+
+## 2020/8/27
+
+1. [typescript 断言](./file/typescript8-27.md)
