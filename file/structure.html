@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // return 直接跳出整个函数
+        // continue 跳出当次循环
+        // break 跳出整个循环
+        function isIsomorphic(firstString,secondString) { 
+         debugger;
+
+            //检查长度是否相等，如果不相等，它们不可能是同构的
+            if(firstString.length !==secondString.length) return false
+            var letterMap = {};
+            for(var i =0;i<firstString.length;i++){
+                var letterA = firstString[i],
+                letterB = secondString[i];
+                //如果 letterA不存在，创建一个map,并将letterB赋值给它
+                if(letterMap[letterA]===undefined){
+                    letterMap[letterA] = letterB;
+                }else if(letterMap[letterA] !==letterB){
+                    //如果 letterA 在map中已存在，但不是与letterB对应
+                    //那么这意味着 letterA与多个字符相对应
+                    return false;
+                }
+            }
+            return true;
+         }
+
+        console.log( isIsomorphic('halle','sfwsc'))
+    </script>
+</body>
+</html>
