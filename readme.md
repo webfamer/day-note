@@ -8,3 +8,7 @@
 ## 2020/8/27
 
 1. [typescript 断言](./file/typescript8-27.md)
+
+## 2020/8/28
+
+1.[判断两个字符串是否是同构](./file/structure.html)
