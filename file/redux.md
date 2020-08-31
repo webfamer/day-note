@@ -22,3 +22,29 @@ function addTodo(text){
 const action = addTodo('Learn Redux')
 ````
 
+
+
+### 创建redux的步骤
+
+1.先建立store和reducer
+
+在src目录先创建store文件夹，然后在文件夹下创建index.js,reducer.js，然后写入如下代码
+
+**index.js**
+
+````react
+import { createStore } from 'redux' //引入createStore方法
+import reducer from './reducer'
+const store = createStore(reducer) //创建数据存储仓库
+export default store //暴露出去
+````
+
+**reducer.js**
+
+````react
+const defaultSate = {} //默认数据
+export default (state = defaultState,action) =>{
+    return state
+}
+````
+
