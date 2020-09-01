@@ -16,3 +16,9 @@
 ## 2020/8/31
 
 1. [react-router](./file/react-router.md)
+
+## 2020/9/1
+
+1. [leetcode 394](./file/leetcode394.md)
+
+   
