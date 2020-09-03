@@ -21,4 +21,7 @@
 
 1. [leetcode 394](./file/leetcode394.md)
 
-   
+
+## 2020/9/3
+
+1. [redux](./file/redux.md)
