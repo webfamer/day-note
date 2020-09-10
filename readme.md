@@ -29,3 +29,7 @@
 ## 2020/9/7
 
 1.[react-hook](./file/react-hook.md)
+
+### 2020/9/10
+
+1. [leetcode 380](./file/leetcode380.md)
